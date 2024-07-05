@@ -13,7 +13,7 @@ describe("FizzBuzz", () => {
     expect(fizz_buzz([15])).toBe("fizzbuzz");
   });
 
-  test('[1,2,3] should result in "1, 2, fiz z"', () => {
+  test('[1,2,3] should result in "1, 2, fizz"', () => {
     expect(fizz_buzz([3])).toBe("fizz");
   });
 });
